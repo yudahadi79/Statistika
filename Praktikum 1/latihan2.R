@@ -1,0 +1,11 @@
+data_yuda_csv=read.csv("C:/Users/Yuda Hp/PraktikumStatistika/data.csv")
+View(data_yuda_csv)
+mean(data_yuda_csv$Tinggi.Badan)
+str(data_yuda_csv)
+
+install.packages("xlsx")
+library("xlsx")
+data_yuda_xlsx=read.xlsx("C:/Users/Yuda Hp/PraktikumStatistika/data.xlsx",1)
+View(data_yuda_xlsx)
+mean(data_yuda_xlsx$Tinggi.Badan)
+str(data_yuda_xlsx)
