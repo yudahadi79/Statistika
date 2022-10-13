@@ -1,0 +1,5 @@
+yuda=read.delim("clipboard")
+View(yuda)
+str(yuda)
+mean(yuda$Pendapatan)
+t.test(yuda$Pendapatan, mu=14500)
