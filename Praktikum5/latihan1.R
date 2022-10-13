@@ -1,0 +1,5 @@
+yuda=read.delim("clipboard")
+View(yuda)
+str(yuda)
+mean(yuda$Volume)
+t.test(yuda$Volume, mu=10)
