@@ -1,0 +1,11 @@
+yuda=read.csv("C:/Users/Yuda Hp/Downloads/Dataset/DirectMarketing.csv")
+hist(yuda$AmountSpent)
+d=density(yuda$AmountSpent)
+plot(d)
+
+install.packages("ggplot2")
+library(ggplot2)
+yuda=read.csv("C:/Users/Yuda Hp/Downloads/Dataset/Houseprices.csv")
+head(yuda)
+qplot(yuda$Price, yuda$SqFt)
+plot(yuda$Price, yuda$SqFt)
